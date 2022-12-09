@@ -42,6 +42,7 @@
 	List<BoardVO> list = boardDAO.getBoardList();
 	request.setAttribute("list",list);
 %>
+
 <table id="list" width="90%">
 <tr>
 	<th>Id</th>
@@ -52,6 +53,7 @@
 	<th>Edit</th>
 	<th>Delete</th>
 </tr>
+
 	<c:forEach items ="${list}" var="u">
 		<td>
 		<td>${u.seq}</td>

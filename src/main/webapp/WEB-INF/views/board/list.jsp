@@ -19,6 +19,7 @@
     </script>
 </head>
 <body>
+<a href="../login/logout">Logout</a>
 <table id="list" width="90%">
     <tr>
         <th>Id</th>
@@ -29,9 +30,6 @@
         <th>Regdate</th>
         <th>Edit</th>
         <th>Delete</th>
-
-
-
     </tr>
 <c:forEach items ="${list}" var="u">
     <tr>
